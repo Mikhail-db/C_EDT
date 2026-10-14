@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95ed6be1-15db-4bf9-93d8-aa599e313240">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95ed6be1-15db-4bf9-93d8-aa599e313240">
   <producedTypes>
     <objectType typeId="db9a1ca8-44db-4e23-8831-a5422e0130f6" valueTypeId="c1e7529a-d020-4791-89fc-1a0f59b57794"/>
     <refType typeId="69590b1a-1432-4fba-b1f3-cd5841420e85" valueTypeId="9c2ea240-96b5-46cb-984f-05752fdb615a"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="42981c02-339f-4c88-a11d-54e756a92246">
+    <name>Производители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производители</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
