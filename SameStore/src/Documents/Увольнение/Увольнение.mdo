@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39680f00-8696-4f67-ab7a-2431b6bde41b">
+  <producedTypes>
+    <objectType typeId="745c2298-10b7-4e2f-a741-6d341421ab4d" valueTypeId="45bdb915-b840-4372-a23e-c717f759fa4c"/>
+    <refType typeId="fddb4954-c14d-49ce-91f1-84dbbd7cdfaa" valueTypeId="44b63302-daec-494d-9ba2-3da34a7a7219"/>
+    <selectionType typeId="311eadfb-d9b4-4df8-8541-72a447f9f650" valueTypeId="ea06e048-609d-4257-b043-9f0070c21cf4"/>
+    <listType typeId="765bbaed-bcd1-41fe-b19a-124f4bda4c8c" valueTypeId="266c6734-9ec1-4075-b9b4-f83fa2a4b3b1"/>
+    <managerType typeId="35668bc9-3fa0-4372-a7fd-abbc24f5c034" valueTypeId="ac2a06ea-cce4-43d1-bb28-796d4c3db08a"/>
+  </producedTypes>
+  <name>Увольнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Увольнение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Увольнение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

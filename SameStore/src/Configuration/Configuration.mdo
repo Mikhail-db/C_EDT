@@ -43,7 +43,10 @@
   <roles>Role.ТожеРоль</roles>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <documents>Document.Реализация</documents>
+  <documents>Document.Увольнение</documents>
 </mdclass:Configuration>
